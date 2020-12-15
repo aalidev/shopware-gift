@@ -1,0 +1,31 @@
+{
+    "name": "swag/cart-add-discount-for-product",
+    "description": "Adds gift for each product",
+    "version": "v1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Free gift plugin"
+        }
+    ],
+    "require": {
+        "shopware/core": "*"
+    },
+    "extra": {
+        "shopware-plugin-class": "Swag\\CartAddDiscountForProduct\\CartAddDiscountForProduct",
+        "label": {
+            "de-DE": "Label für das Plugin CartAddDiscountForProduct",
+            "en-GB": "Label for the plugin CartAddDiscountForProduct"
+        },
+        "description": {
+            "de-DE": "Beschreibung für das Plugin CartAddDiscountForProduct",
+            "en-GB": "Description for the plugin CartAddDiscountForProduct"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Swag\\CartAddDiscountForProduct\\": "src/"
+        }
+    }
+}
